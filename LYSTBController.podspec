@@ -93,7 +93,7 @@ The main solution to system navigation can not set more than six item problems
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = LYSTBController/*.{h,m}"
+  s.source_files  = "LYSTBController/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
