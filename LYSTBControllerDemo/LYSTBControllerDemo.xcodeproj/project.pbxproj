@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5FDEAE2111F9E200B0CA7E /* LYSTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FDEAD2111F9E200B0CA7E /* LYSTBController.m */; };
 		CC7829041FB9637E00409DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829031FB9637E00409DFB /* AppDelegate.m */; };
 		CC7829071FB9637E00409DFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829061FB9637E00409DFB /* ViewController.m */; };
 		CC78290A1FB9637E00409DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7829081FB9637E00409DFB /* Main.storyboard */; };
 		CC78290C1FB9637E00409DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC78290B1FB9637E00409DFB /* Assets.xcassets */; };
 		CC78290F1FB9637E00409DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC78290D1FB9637E00409DFB /* LaunchScreen.storyboard */; };
 		CC7829121FB9637E00409DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7829111FB9637E00409DFB /* main.m */; };
-		CC78291F1FB963AF00409DFB /* LYSTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78291A1FB963AF00409DFB /* LYSTabBarView.m */; };
-		CC7829201FB963AF00409DFB /* LYSTBBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78291C1FB963AF00409DFB /* LYSTBBarItem.m */; };
-		CC7829211FB963AF00409DFB /* LYSTBController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78291E1FB963AF00409DFB /* LYSTBController.m */; };
 		CC78292C1FB963B400409DFB /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7829231FB963B400409DFB /* add.png */; };
 		CC78292D1FB963B400409DFB /* fujin_default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7829241FB963B400409DFB /* fujin_default.png */; };
 		CC78292E1FB963B400409DFB /* fujin_select.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7829251FB963B400409DFB /* fujin_select.png */; };
@@ -30,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E5FDEAC2111F9E200B0CA7E /* LYSTBController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSTBController.h; sourceTree = "<group>"; };
+		3E5FDEAD2111F9E200B0CA7E /* LYSTBController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSTBController.m; sourceTree = "<group>"; };
 		CC7828FF1FB9637E00409DFB /* LYSTBControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSTBControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7829021FB9637E00409DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC7829031FB9637E00409DFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,12 +40,6 @@
 		CC78290E1FB9637E00409DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7829101FB9637E00409DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7829111FB9637E00409DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC7829191FB963AF00409DFB /* LYSTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSTabBarView.h; sourceTree = "<group>"; };
-		CC78291A1FB963AF00409DFB /* LYSTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSTabBarView.m; sourceTree = "<group>"; };
-		CC78291B1FB963AF00409DFB /* LYSTBBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSTBBarItem.h; sourceTree = "<group>"; };
-		CC78291C1FB963AF00409DFB /* LYSTBBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSTBBarItem.m; sourceTree = "<group>"; };
-		CC78291D1FB963AF00409DFB /* LYSTBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSTBController.h; sourceTree = "<group>"; };
-		CC78291E1FB963AF00409DFB /* LYSTBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSTBController.m; sourceTree = "<group>"; };
 		CC7829231FB963B400409DFB /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		CC7829241FB963B400409DFB /* fujin_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fujin_default.png; sourceTree = "<group>"; };
 		CC7829251FB963B400409DFB /* fujin_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fujin_select.png; sourceTree = "<group>"; };
@@ -109,12 +103,8 @@
 		CC7829181FB963AF00409DFB /* LYSTBController */ = {
 			isa = PBXGroup;
 			children = (
-				CC7829191FB963AF00409DFB /* LYSTabBarView.h */,
-				CC78291A1FB963AF00409DFB /* LYSTabBarView.m */,
-				CC78291B1FB963AF00409DFB /* LYSTBBarItem.h */,
-				CC78291C1FB963AF00409DFB /* LYSTBBarItem.m */,
-				CC78291D1FB963AF00409DFB /* LYSTBController.h */,
-				CC78291E1FB963AF00409DFB /* LYSTBController.m */,
+				3E5FDEAC2111F9E200B0CA7E /* LYSTBController.h */,
+				3E5FDEAD2111F9E200B0CA7E /* LYSTBController.m */,
 			);
 			name = LYSTBController;
 			path = ../../LYSTBController;
@@ -220,10 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7829071FB9637E00409DFB /* ViewController.m in Sources */,
-				CC78291F1FB963AF00409DFB /* LYSTabBarView.m in Sources */,
 				CC7829121FB9637E00409DFB /* main.m in Sources */,
-				CC7829201FB963AF00409DFB /* LYSTBBarItem.m in Sources */,
-				CC7829211FB963AF00409DFB /* LYSTBController.m in Sources */,
+				3E5FDEAE2111F9E200B0CA7E /* LYSTBController.m in Sources */,
 				CC7829041FB9637E00409DFB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
